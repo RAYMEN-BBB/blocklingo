@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';import vm from 'node:vm';
+const rows=JSON.parse(await readFile('src/words.json','utf8'));
+test('词条唯一、字段完整且没有空的练习内容',()=>{assert.equal(new Set(rows.map(r=>r[0])).size,rows.length);for(const r of rows){assert.equal(r.length,11);assert.match(r[0],/^[a-z]+(?:-[a-z]+)*$/);r.forEach(v=>assert.ok(typeof v==='string'&&v.trim()))}});
+const source=await readFile('src/app.js','utf8');
+test('每日练习稳定、无重复、跨日变化且不修改原词库',()=>{const ctx={document:{querySelector:()=>null,querySelectorAll:()=>[]},localStorage:{getItem:()=>null},Intl,Date};vm.createContext(ctx);vm.runInContext(source+';globalThis.order=seededOrder',ctx);const a=ctx.order(rows,'2026-11-02').slice(0,5).map(x=>x[0]);assert.deepEqual(a,ctx.order(rows,'2026-11-02').slice(0,5).map(x=>x[0]));assert.equal(new Set(a).size,5);assert.notDeepEqual(a,ctx.order(rows,'2026-11-03').slice(0,5).map(x=>x[0]));assert.equal(rows[0][0],'grass-block')});
+test('localStorage 被禁用时核心脚本仍然启动',()=>{const ctx={document:{querySelector:()=>null,querySelectorAll:()=>[]},localStorage:{getItem:()=>{throw Error('disabled')}},Intl,Date};vm.runInNewContext(source,ctx)});

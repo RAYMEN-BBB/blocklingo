@@ -1,0 +1,5 @@
+node_modules/
+.local/
+reports/
+*.tar.gz
+.DS_Store
