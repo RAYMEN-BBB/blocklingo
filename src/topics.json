@@ -1,0 +1,14 @@
+[
+{"id":"friends","name":"动物伙伴","cover":"sheep","words":["sheep","cow","pig","chicken","wolf","cat","dog","rabbit","fox","panda","bee","parrot","horse"]},
+{"id":"adventure","name":"生物冒险","cover":"creeper","words":["creeper","zombie","villager","wolf","sword","shield","torch"]},
+{"id":"nature","name":"自然方块","cover":"grass-block","words":["grass-block","dirt","stone","sand","water","oak-log","dandelion"]},
+{"id":"plants","name":"树木植物","cover":"oak-log","words":["oak-log","oak-planks","dandelion","wheat","pumpkin"]},
+{"id":"food","name":"食物农场","cover":"carrot","words":["apple","bread","carrot","wheat","pumpkin","cow","chicken"]},
+{"id":"tools","name":"工具装备","cover":"pickaxe","words":["pickaxe","axe","shovel","sword","shield","compass","map"]},
+{"id":"home","name":"建筑生活","cover":"crafting-table","words":["oak-planks","crafting-table","furnace","chest","bed","door","ladder","torch"]},
+{"id":"minerals","name":"矿物宝石","cover":"diamond","words":["coal","iron-ingot","gold-ingot","diamond","emerald","redstone-dust"]},
+{"id":"redstone","name":"红石机关","cover":"piston","words":["redstone-dust","lever","button","piston","door"]},
+{"id":"explore","name":"探索出行","cover":"boat","words":["boat","compass","map","torch","ladder","explore"]},
+{"id":"colors","name":"颜色数字","cover":"red","words":["red","green","blue","one","two","three"]},
+{"id":"actions","name":"动作表达","cover":"build","words":["build","dig","mine","explore"]}
+]

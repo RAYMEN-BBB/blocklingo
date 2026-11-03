@@ -1,0 +1,634 @@
+{
+  "provider": "Microsoft Edge neural TTS",
+  "generatedRate": "-5%",
+  "defaultVoice": "andrew",
+  "voices": [
+    {
+      "id": "andrew",
+      "model": "en-US-AndrewNeural",
+      "label": "Andrew · 自然英语"
+    }
+  ],
+  "clips": {
+    "andrew:6fe6d5ff360b5ae6a6ab": {
+      "voice": "andrew",
+      "text": "A bee is near the flower.",
+      "file": "audio/andrew/6fe6d5ff360b5ae6a6ab.mp3"
+    },
+    "andrew:f223faa96f2291629492": {
+      "voice": "andrew",
+      "text": "Apple",
+      "file": "audio/andrew/f223faa96f2291629492.mp3"
+    },
+    "andrew:9e28648fe9d1916c3a92": {
+      "voice": "andrew",
+      "text": "Axe",
+      "file": "audio/andrew/9e28648fe9d1916c3a92.mp3"
+    },
+    "andrew:f816a74c2310179d8785": {
+      "voice": "andrew",
+      "text": "Bed",
+      "file": "audio/andrew/f816a74c2310179d8785.mp3"
+    },
+    "andrew:f57794503e0baaa4a0ef": {
+      "voice": "andrew",
+      "text": "Bee",
+      "file": "audio/andrew/f57794503e0baaa4a0ef.mp3"
+    },
+    "andrew:ec7d56a01607001e6401": {
+      "voice": "andrew",
+      "text": "Blue",
+      "file": "audio/andrew/ec7d56a01607001e6401.mp3"
+    },
+    "andrew:90406b7d6704fb3b1529": {
+      "voice": "andrew",
+      "text": "Boat",
+      "file": "audio/andrew/90406b7d6704fb3b1529.mp3"
+    },
+    "andrew:e882154bb2efd8735668": {
+      "voice": "andrew",
+      "text": "Bread",
+      "file": "audio/andrew/e882154bb2efd8735668.mp3"
+    },
+    "andrew:bdd254b65baac169f6ac": {
+      "voice": "andrew",
+      "text": "Build",
+      "file": "audio/andrew/bdd254b65baac169f6ac.mp3"
+    },
+    "andrew:707eab0c23ecbf6e5382": {
+      "voice": "andrew",
+      "text": "Button",
+      "file": "audio/andrew/707eab0c23ecbf6e5382.mp3"
+    },
+    "andrew:9e87ba4dd07da92b8eca": {
+      "voice": "andrew",
+      "text": "Carrot",
+      "file": "audio/andrew/9e87ba4dd07da92b8eca.mp3"
+    },
+    "andrew:48735c4fae42d1501164": {
+      "voice": "andrew",
+      "text": "Cat",
+      "file": "audio/andrew/48735c4fae42d1501164.mp3"
+    },
+    "andrew:378d83808237a4459f23": {
+      "voice": "andrew",
+      "text": "Chest",
+      "file": "audio/andrew/378d83808237a4459f23.mp3"
+    },
+    "andrew:d003dadb78981e299f5b": {
+      "voice": "andrew",
+      "text": "Chicken",
+      "file": "audio/andrew/d003dadb78981e299f5b.mp3"
+    },
+    "andrew:4cc1d6e9f8574bb528cd": {
+      "voice": "andrew",
+      "text": "Coal",
+      "file": "audio/andrew/4cc1d6e9f8574bb528cd.mp3"
+    },
+    "andrew:f082ac980336071f811f": {
+      "voice": "andrew",
+      "text": "Compass",
+      "file": "audio/andrew/f082ac980336071f811f.mp3"
+    },
+    "andrew:71e26099295bfff7876c": {
+      "voice": "andrew",
+      "text": "Cow",
+      "file": "audio/andrew/71e26099295bfff7876c.mp3"
+    },
+    "andrew:aeb29223319b5b68a9ed": {
+      "voice": "andrew",
+      "text": "Crafting Table",
+      "file": "audio/andrew/aeb29223319b5b68a9ed.mp3"
+    },
+    "andrew:edcf837a324d27b4e2c9": {
+      "voice": "andrew",
+      "text": "Creeper",
+      "file": "audio/andrew/edcf837a324d27b4e2c9.mp3"
+    },
+    "andrew:200a49a2c9a58149698a": {
+      "voice": "andrew",
+      "text": "Dandelion",
+      "file": "audio/andrew/200a49a2c9a58149698a.mp3"
+    },
+    "andrew:b639c243cebdfad98aee": {
+      "voice": "andrew",
+      "text": "Diamond",
+      "file": "audio/andrew/b639c243cebdfad98aee.mp3"
+    },
+    "andrew:02f700ef4c22c270f1c9": {
+      "voice": "andrew",
+      "text": "Dig",
+      "file": "audio/andrew/02f700ef4c22c270f1c9.mp3"
+    },
+    "andrew:89a598de3e6224d2a9a1": {
+      "voice": "andrew",
+      "text": "Dig up some dirt.",
+      "file": "audio/andrew/89a598de3e6224d2a9a1.mp3"
+    },
+    "andrew:a97acef78b2b930b533c": {
+      "voice": "andrew",
+      "text": "Dirt",
+      "file": "audio/andrew/a97acef78b2b930b533c.mp3"
+    },
+    "andrew:0eb129bf94594aaeee66": {
+      "voice": "andrew",
+      "text": "Dog",
+      "file": "audio/andrew/0eb129bf94594aaeee66.mp3"
+    },
+    "andrew:fbf247e43d3745e56454": {
+      "voice": "andrew",
+      "text": "Door",
+      "file": "audio/andrew/fbf247e43d3745e56454.mp3"
+    },
+    "andrew:af1ccb31304d74a7940a": {
+      "voice": "andrew",
+      "text": "Emerald",
+      "file": "audio/andrew/af1ccb31304d74a7940a.mp3"
+    },
+    "andrew:3b73900b8d29f963dece": {
+      "voice": "andrew",
+      "text": "Explore",
+      "file": "audio/andrew/3b73900b8d29f963dece.mp3"
+    },
+    "andrew:f55bd2cdfae797282763": {
+      "voice": "andrew",
+      "text": "Fox",
+      "file": "audio/andrew/f55bd2cdfae797282763.mp3"
+    },
+    "andrew:1c875539a5a72c9c3c65": {
+      "voice": "andrew",
+      "text": "Furnace",
+      "file": "audio/andrew/1c875539a5a72c9c3c65.mp3"
+    },
+    "andrew:865297885d4dc5a38fdc": {
+      "voice": "andrew",
+      "text": "Gold Ingot",
+      "file": "audio/andrew/865297885d4dc5a38fdc.mp3"
+    },
+    "andrew:a89312a54194e1043316": {
+      "voice": "andrew",
+      "text": "Grass Block",
+      "file": "audio/andrew/a89312a54194e1043316.mp3"
+    },
+    "andrew:d486dfbd5fb578340bcc": {
+      "voice": "andrew",
+      "text": "Green",
+      "file": "audio/andrew/d486dfbd5fb578340bcc.mp3"
+    },
+    "andrew:edc5134033662b11f124": {
+      "voice": "andrew",
+      "text": "Horse",
+      "file": "audio/andrew/edc5134033662b11f124.mp3"
+    },
+    "andrew:ea80b82c6023aab1b812": {
+      "voice": "andrew",
+      "text": "I can dig a hole.",
+      "file": "audio/andrew/ea80b82c6023aab1b812.mp3"
+    },
+    "andrew:0fa2bc1dde8eb1e61706": {
+      "voice": "andrew",
+      "text": "I can see a creeper.",
+      "file": "audio/andrew/0fa2bc1dde8eb1e61706.mp3"
+    },
+    "andrew:c6e984c03a0f593a6b21": {
+      "voice": "andrew",
+      "text": "I can see two sheep.",
+      "file": "audio/andrew/c6e984c03a0f593a6b21.mp3"
+    },
+    "andrew:eccb57d642e3bd9a32ae": {
+      "voice": "andrew",
+      "text": "I found a diamond!",
+      "file": "audio/andrew/eccb57d642e3bd9a32ae.mp3"
+    },
+    "andrew:f14829426ab043eba016": {
+      "voice": "andrew",
+      "text": "I have a carrot.",
+      "file": "audio/andrew/f14829426ab043eba016.mp3"
+    },
+    "andrew:bcab4fd7555b2afbc1a3": {
+      "voice": "andrew",
+      "text": "I have a compass.",
+      "file": "audio/andrew/bcab4fd7555b2afbc1a3.mp3"
+    },
+    "andrew:11e7adee2a8d653a6eec": {
+      "voice": "andrew",
+      "text": "I have a shield.",
+      "file": "audio/andrew/11e7adee2a8d653a6eec.mp3"
+    },
+    "andrew:d409861c7f299e7cba68": {
+      "voice": "andrew",
+      "text": "I have an iron ingot.",
+      "file": "audio/andrew/d409861c7f299e7cba68.mp3"
+    },
+    "andrew:554cc243f93a532f327d": {
+      "voice": "andrew",
+      "text": "I have one apple.",
+      "file": "audio/andrew/554cc243f93a532f327d.mp3"
+    },
+    "andrew:57913f181d602fbe7cb0": {
+      "voice": "andrew",
+      "text": "I have some bread.",
+      "file": "audio/andrew/57913f181d602fbe7cb0.mp3"
+    },
+    "andrew:513a8c251059b236736d": {
+      "voice": "andrew",
+      "text": "I have three apples.",
+      "file": "audio/andrew/513a8c251059b236736d.mp3"
+    },
+    "andrew:cac33e391d16a55270fa": {
+      "voice": "andrew",
+      "text": "I need some stone.",
+      "file": "audio/andrew/cac33e391d16a55270fa.mp3"
+    },
+    "andrew:864ffa7794c9d98b07c9": {
+      "voice": "andrew",
+      "text": "Iron Ingot",
+      "file": "audio/andrew/864ffa7794c9d98b07c9.mp3"
+    },
+    "andrew:df0663641d3ef583bb62": {
+      "voice": "andrew",
+      "text": "Ladder",
+      "file": "audio/andrew/df0663641d3ef583bb62.mp3"
+    },
+    "andrew:0e89783d59ceb95a7028": {
+      "voice": "andrew",
+      "text": "Let's build a house.",
+      "file": "audio/andrew/0e89783d59ceb95a7028.mp3"
+    },
+    "andrew:9e8f6f86d6ff1752a729": {
+      "voice": "andrew",
+      "text": "Let's explore the forest.",
+      "file": "audio/andrew/9e8f6f86d6ff1752a729.mp3"
+    },
+    "andrew:0ecf765af61161b250ef": {
+      "voice": "andrew",
+      "text": "Let's mine some stone.",
+      "file": "audio/andrew/0ecf765af61161b250ef.mp3"
+    },
+    "andrew:2ea541c5d4da446c9017": {
+      "voice": "andrew",
+      "text": "Lever",
+      "file": "audio/andrew/2ea541c5d4da446c9017.mp3"
+    },
+    "andrew:c4fe3f09004fc0870d15": {
+      "voice": "andrew",
+      "text": "Look at the map.",
+      "file": "audio/andrew/c4fe3f09004fc0870d15.mp3"
+    },
+    "andrew:be176b0015c424b78e9f": {
+      "voice": "andrew",
+      "text": "Map",
+      "file": "audio/andrew/be176b0015c424b78e9f.mp3"
+    },
+    "andrew:f57afb7d275a26df0de0": {
+      "voice": "andrew",
+      "text": "Mine",
+      "file": "audio/andrew/f57afb7d275a26df0de0.mp3"
+    },
+    "andrew:299436e8cfe83cc0d60c": {
+      "voice": "andrew",
+      "text": "Oak Log",
+      "file": "audio/andrew/299436e8cfe83cc0d60c.mp3"
+    },
+    "andrew:0aef1f4797505591e76c": {
+      "voice": "andrew",
+      "text": "Oak Planks",
+      "file": "audio/andrew/0aef1f4797505591e76c.mp3"
+    },
+    "andrew:8b12507783d5becacbf2": {
+      "voice": "andrew",
+      "text": "One",
+      "file": "audio/andrew/8b12507783d5becacbf2.mp3"
+    },
+    "andrew:e93bdab3009eb150af03": {
+      "voice": "andrew",
+      "text": "Open the chest.",
+      "file": "audio/andrew/e93bdab3009eb150af03.mp3"
+    },
+    "andrew:f7d9ea7f3980635237d6": {
+      "voice": "andrew",
+      "text": "Panda",
+      "file": "audio/andrew/f7d9ea7f3980635237d6.mp3"
+    },
+    "andrew:21957106f22269fcf84c": {
+      "voice": "andrew",
+      "text": "Parrot",
+      "file": "audio/andrew/21957106f22269fcf84c.mp3"
+    },
+    "andrew:8700509f665c8b17d2cf": {
+      "voice": "andrew",
+      "text": "Pickaxe",
+      "file": "audio/andrew/8700509f665c8b17d2cf.mp3"
+    },
+    "andrew:69243f2eec872aed3f67": {
+      "voice": "andrew",
+      "text": "Pig",
+      "file": "audio/andrew/69243f2eec872aed3f67.mp3"
+    },
+    "andrew:f1da8c0d1fea849c12d1": {
+      "voice": "andrew",
+      "text": "Piston",
+      "file": "audio/andrew/f1da8c0d1fea849c12d1.mp3"
+    },
+    "andrew:106606dfa8b58b7b2090": {
+      "voice": "andrew",
+      "text": "Please open the door.",
+      "file": "audio/andrew/106606dfa8b58b7b2090.mp3"
+    },
+    "andrew:b25371b2bfa58aab7e6f": {
+      "voice": "andrew",
+      "text": "Press the button, please.",
+      "file": "audio/andrew/b25371b2bfa58aab7e6f.mp3"
+    },
+    "andrew:c6c5211a50793ccc36da": {
+      "voice": "andrew",
+      "text": "Pumpkin",
+      "file": "audio/andrew/c6c5211a50793ccc36da.mp3"
+    },
+    "andrew:38b162061fcdfb6be885": {
+      "voice": "andrew",
+      "text": "Put a torch on the wall.",
+      "file": "audio/andrew/38b162061fcdfb6be885.mp3"
+    },
+    "andrew:91d0bd5cfe78104ef8ed": {
+      "voice": "andrew",
+      "text": "Put the crafting table here.",
+      "file": "audio/andrew/91d0bd5cfe78104ef8ed.mp3"
+    },
+    "andrew:4ea93dfb214b46a92076": {
+      "voice": "andrew",
+      "text": "Rabbit",
+      "file": "audio/andrew/4ea93dfb214b46a92076.mp3"
+    },
+    "andrew:ba19e9c3d5f49882ddaa": {
+      "voice": "andrew",
+      "text": "Red",
+      "file": "audio/andrew/ba19e9c3d5f49882ddaa.mp3"
+    },
+    "andrew:74d65ea5222e6fbaf1f3": {
+      "voice": "andrew",
+      "text": "Redstone Dust",
+      "file": "audio/andrew/74d65ea5222e6fbaf1f3.mp3"
+    },
+    "andrew:9fbe6bf91fa18ea4fa7a": {
+      "voice": "andrew",
+      "text": "Redstone dust is red.",
+      "file": "audio/andrew/9fbe6bf91fa18ea4fa7a.mp3"
+    },
+    "andrew:82855c11ae69b0652a29": {
+      "voice": "andrew",
+      "text": "Sand",
+      "file": "audio/andrew/82855c11ae69b0652a29.mp3"
+    },
+    "andrew:8df1b307b69868d7612e": {
+      "voice": "andrew",
+      "text": "Sheep",
+      "file": "audio/andrew/8df1b307b69868d7612e.mp3"
+    },
+    "andrew:480d4be7d61fe52bc317": {
+      "voice": "andrew",
+      "text": "Shield",
+      "file": "audio/andrew/480d4be7d61fe52bc317.mp3"
+    },
+    "andrew:1e4706405c5e89889c00": {
+      "voice": "andrew",
+      "text": "Shovel",
+      "file": "audio/andrew/1e4706405c5e89889c00.mp3"
+    },
+    "andrew:6ffa6b8b1c9fa11cb67a": {
+      "voice": "andrew",
+      "text": "Stone",
+      "file": "audio/andrew/6ffa6b8b1c9fa11cb67a.mp3"
+    },
+    "andrew:d0b9cd97fa22d3eb6903": {
+      "voice": "andrew",
+      "text": "Sword",
+      "file": "audio/andrew/d0b9cd97fa22d3eb6903.mp3"
+    },
+    "andrew:e622c500b575fea124a6": {
+      "voice": "andrew",
+      "text": "The apple is red.",
+      "file": "audio/andrew/e622c500b575fea124a6.mp3"
+    },
+    "andrew:3be06257ad87f599852a": {
+      "voice": "andrew",
+      "text": "The bed is red.",
+      "file": "audio/andrew/3be06257ad87f599852a.mp3"
+    },
+    "andrew:b45c4684aa6ad2d20b92": {
+      "voice": "andrew",
+      "text": "The boat is on the water.",
+      "file": "audio/andrew/b45c4684aa6ad2d20b92.mp3"
+    },
+    "andrew:7619a06eaba978236efc": {
+      "voice": "andrew",
+      "text": "The cat is on the bed.",
+      "file": "audio/andrew/7619a06eaba978236efc.mp3"
+    },
+    "andrew:cfaf6c32c5a112c2c58b": {
+      "voice": "andrew",
+      "text": "The chicken is near the tree.",
+      "file": "audio/andrew/cfaf6c32c5a112c2c58b.mp3"
+    },
+    "andrew:f180766cb528b17bd8f1": {
+      "voice": "andrew",
+      "text": "The cow is on the grass.",
+      "file": "audio/andrew/f180766cb528b17bd8f1.mp3"
+    },
+    "andrew:72e430a570ff7adff1cd": {
+      "voice": "andrew",
+      "text": "The dandelion is yellow.",
+      "file": "audio/andrew/72e430a570ff7adff1cd.mp3"
+    },
+    "andrew:9dbe45a8259ecc85bc6e": {
+      "voice": "andrew",
+      "text": "The dog is beside me.",
+      "file": "audio/andrew/9dbe45a8259ecc85bc6e.mp3"
+    },
+    "andrew:36321c19a7129d064fff": {
+      "voice": "andrew",
+      "text": "The fox is orange.",
+      "file": "audio/andrew/36321c19a7129d064fff.mp3"
+    },
+    "andrew:1916fd1bd34055bc1393": {
+      "voice": "andrew",
+      "text": "The furnace is hot.",
+      "file": "audio/andrew/1916fd1bd34055bc1393.mp3"
+    },
+    "andrew:e9bba7774f0fb1387f89": {
+      "voice": "andrew",
+      "text": "The gold ingot is yellow.",
+      "file": "audio/andrew/e9bba7774f0fb1387f89.mp3"
+    },
+    "andrew:4c6612e4fac24788cf2f": {
+      "voice": "andrew",
+      "text": "The grass is green.",
+      "file": "audio/andrew/4c6612e4fac24788cf2f.mp3"
+    },
+    "andrew:4646844a41c848e923f9": {
+      "voice": "andrew",
+      "text": "The horse is brown.",
+      "file": "audio/andrew/4646844a41c848e923f9.mp3"
+    },
+    "andrew:d239c25a909751c2ab20": {
+      "voice": "andrew",
+      "text": "The ladder is on the wall.",
+      "file": "audio/andrew/d239c25a909751c2ab20.mp3"
+    },
+    "andrew:66bf44ee0f6b5811ca1b": {
+      "voice": "andrew",
+      "text": "The lever is on the wall.",
+      "file": "audio/andrew/66bf44ee0f6b5811ca1b.mp3"
+    },
+    "andrew:330832ec7a75ad0ce488": {
+      "voice": "andrew",
+      "text": "The panda is black and white.",
+      "file": "audio/andrew/330832ec7a75ad0ce488.mp3"
+    },
+    "andrew:389ada5dd2ead3c80e73": {
+      "voice": "andrew",
+      "text": "The parrot is on a tree.",
+      "file": "audio/andrew/389ada5dd2ead3c80e73.mp3"
+    },
+    "andrew:1b048518c8eb41c7daa3": {
+      "voice": "andrew",
+      "text": "The pig is pink.",
+      "file": "audio/andrew/1b048518c8eb41c7daa3.mp3"
+    },
+    "andrew:6fd9670bd18599b0107b": {
+      "voice": "andrew",
+      "text": "The rabbit has long ears.",
+      "file": "audio/andrew/6fd9670bd18599b0107b.mp3"
+    },
+    "andrew:213ad7296d9f88bf50e4": {
+      "voice": "andrew",
+      "text": "The sword is in the chest.",
+      "file": "audio/andrew/213ad7296d9f88bf50e4.mp3"
+    },
+    "andrew:a48860b548973110af16": {
+      "voice": "andrew",
+      "text": "The villager is in the village.",
+      "file": "audio/andrew/a48860b548973110af16.mp3"
+    },
+    "andrew:5e9046b8877698fd87ae": {
+      "voice": "andrew",
+      "text": "The water is blue.",
+      "file": "audio/andrew/5e9046b8877698fd87ae.mp3"
+    },
+    "andrew:60d38c9646968d092228": {
+      "voice": "andrew",
+      "text": "The wheat is yellow.",
+      "file": "audio/andrew/60d38c9646968d092228.mp3"
+    },
+    "andrew:80c724e94df0f4d34ec0": {
+      "voice": "andrew",
+      "text": "The wolf is gray.",
+      "file": "audio/andrew/80c724e94df0f4d34ec0.mp3"
+    },
+    "andrew:368ae62992e3c310642f": {
+      "voice": "andrew",
+      "text": "There is a zombie outside.",
+      "file": "audio/andrew/368ae62992e3c310642f.mp3"
+    },
+    "andrew:f9a166ad6a22b8e46a4e": {
+      "voice": "andrew",
+      "text": "There is sand by the water.",
+      "file": "audio/andrew/f9a166ad6a22b8e46a4e.mp3"
+    },
+    "andrew:cfa661aafe19fbb1c6a1": {
+      "voice": "andrew",
+      "text": "This emerald is green.",
+      "file": "audio/andrew/cfa661aafe19fbb1c6a1.mp3"
+    },
+    "andrew:9ef1dd98adefbacd508f": {
+      "voice": "andrew",
+      "text": "This is a grass block.",
+      "file": "audio/andrew/9ef1dd98adefbacd508f.mp3"
+    },
+    "andrew:b18e54925200b30837b0": {
+      "voice": "andrew",
+      "text": "This is a piston.",
+      "file": "audio/andrew/b18e54925200b30837b0.mp3"
+    },
+    "andrew:a547f4e164e6a4363419": {
+      "voice": "andrew",
+      "text": "This is an apple.",
+      "file": "audio/andrew/a547f4e164e6a4363419.mp3"
+    },
+    "andrew:0dd6cdc15e24769554ed": {
+      "voice": "andrew",
+      "text": "This oak log is brown.",
+      "file": "audio/andrew/0dd6cdc15e24769554ed.mp3"
+    },
+    "andrew:fcb735191b0aa68d3aaa": {
+      "voice": "andrew",
+      "text": "This pumpkin is big.",
+      "file": "audio/andrew/fcb735191b0aa68d3aaa.mp3"
+    },
+    "andrew:926f52d1c1e19c0c58a7": {
+      "voice": "andrew",
+      "text": "Three",
+      "file": "audio/andrew/926f52d1c1e19c0c58a7.mp3"
+    },
+    "andrew:dcc578acd71a7bf2c0e9": {
+      "voice": "andrew",
+      "text": "Torch",
+      "file": "audio/andrew/dcc578acd71a7bf2c0e9.mp3"
+    },
+    "andrew:94a72c074cfe574742c9": {
+      "voice": "andrew",
+      "text": "Two",
+      "file": "audio/andrew/94a72c074cfe574742c9.mp3"
+    },
+    "andrew:0fc5ce8892607c058b36": {
+      "voice": "andrew",
+      "text": "Use a pickaxe to mine stone.",
+      "file": "audio/andrew/0fc5ce8892607c058b36.mp3"
+    },
+    "andrew:5470963f501dc6bc0bad": {
+      "voice": "andrew",
+      "text": "Use a shovel to dig dirt.",
+      "file": "audio/andrew/5470963f501dc6bc0bad.mp3"
+    },
+    "andrew:55bd015ed48e237fb7b5": {
+      "voice": "andrew",
+      "text": "Use an axe to chop wood.",
+      "file": "audio/andrew/55bd015ed48e237fb7b5.mp3"
+    },
+    "andrew:373b82e5cb5a619167d3": {
+      "voice": "andrew",
+      "text": "Use oak planks to build a house.",
+      "file": "audio/andrew/373b82e5cb5a619167d3.mp3"
+    },
+    "andrew:c0d39454a425792220a9": {
+      "voice": "andrew",
+      "text": "Villager",
+      "file": "audio/andrew/c0d39454a425792220a9.mp3"
+    },
+    "andrew:7ca7dea906800f87091b": {
+      "voice": "andrew",
+      "text": "Water",
+      "file": "audio/andrew/7ca7dea906800f87091b.mp3"
+    },
+    "andrew:6dc7346fa16323a3b33b": {
+      "voice": "andrew",
+      "text": "We need coal for a torch.",
+      "file": "audio/andrew/6dc7346fa16323a3b33b.mp3"
+    },
+    "andrew:cca303e99f5f821dfd9d": {
+      "voice": "andrew",
+      "text": "Wheat",
+      "file": "audio/andrew/cca303e99f5f821dfd9d.mp3"
+    },
+    "andrew:ea858afbf837aae71461": {
+      "voice": "andrew",
+      "text": "Wolf",
+      "file": "audio/andrew/ea858afbf837aae71461.mp3"
+    },
+    "andrew:4c876e938c74ff4d6ee0": {
+      "voice": "andrew",
+      "text": "Zombie",
+      "file": "audio/andrew/4c876e938c74ff4d6ee0.mp3"
+    }
+  }
+}

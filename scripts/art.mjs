@@ -16,6 +16,29 @@ export function illustration(id){
  const tool=(type,c)=>{for(let i=0;i<8;i++)box(i,i,0,1,1,1,'#a67b47');if(type==='pickaxe'){box(4,8,0,7,1,1,c);box(3,6,0,1,2,1,c);box(10,6,0,1,2,1,c);box(5,9,0,5,1,1,tint(c,1.2))}if(type==='axe'){box(6,7,0,4,4,1,c);box(8,6,0,3,3,1,c)}if(type==='shovel'){box(7,7,0,3,4,1,c);box(6,8,0,1,2,1,c)}};
  const gem=(c)=>{for(let y=0;y<7;y++){const r=y<3?y+1:Math.max(1,6-y);box(3-r,y,3-r,r*2,1,r*2,c)}box(2,6,2,2,1,2,tint(c,1.25))};
  switch(id){
+ case 'cat':case 'dog':case 'fox':{const c=id==='cat'?'#c39a68':id==='fox'?'#e8934c':'#baaa91';animal(c);box(3,8,1,1,2,1,c);box(3,8,3,1,2,1,c);box(-2,4,1,2,1,2,id==='fox'?'#f0e3ca':c);if(id==='dog')box(3,5,1,3,1,3,'#bc6464');break;}
+ case 'rabbit':box(0,0,0,4,2,3,'#bba792');box(2,2,1,3,3,3,'#cebaa0');box(2,5,1,1,5,1,'#deccbb');box(2,5,3,1,5,1,'#deccbb');pixel(4,4,3,'#26343b');box(0,0,3,3,1,1,'#ddc7ae');break;
+ case 'panda':animal('#e7e8dd');for(const x of [0,4])for(const z of [0,3])box(x,0,z,1,3,1,'#343c42');box(4,8,1,1,1,1,'#343c42');box(4,8,3,1,1,1,'#343c42');box(5,6,1,1,2,1,'#343c42');box(5,6,3,1,2,1,'#343c42');box(6,5,2,1,1,1,'#343c42');break;
+ case 'horse':legs('#78573f');box(0,3,0,7,3,3,'#a77c54');box(5,6,0,2,4,2,'#b58a61');box(6,8,0,3,2,2,'#b58a61');box(5,7,0,1,4,1,'#4c443a');box(5,10,0,1,1,1,'#ba966f');pixel(7,9,1,'#253439');box(-1,2,1,1,4,1,'#4c443a');break;
+ case 'bee':box(0,2,0,6,3,4,'#e9bb4f');box(1,2,0,1,3,4,'#594c38');box(4,2,0,1,3,4,'#594c38');box(2,5,-1,3,1,2,'#d3edf0');box(2,5,3,3,1,2,'#d3edf0');pixel(5,4,3,'#293c41');box(5,5,1,1,1,1,'#594c38');break;
+ case 'parrot':box(0,0,0,1,2,1,'#b4a65e');box(0,2,0,3,5,3,'#df6265');box(0,3,3,3,3,1,'#538cbe');box(2,6,0,3,3,3,'#ef7570');box(5,6,1,1,1,2,'#e3bd64');pixel(4,8,2,'#24343c');box(-1,0,1,2,2,1,'#4a91b6');break;
+ case 'wheat':for(const x of [0,2,4]){box(x,0,0,1,6,1,'#98a55b');box(x,4,0,1,4,1,'#dec16b');box(x,5,1,1,2,1,'#f2d57a');}break;
+ case 'carrot':for(let y=0;y<7;y++){const r=y<2?1:y<4?2:3;box(3-r,y,3-r,r,1,r,'#e9a052');}box(1,7,1,1,3,1,'#68a65b');box(2,7,2,1,2,1,'#89bc6c');break;
+ case 'pumpkin':block('#dbaa59','#d58c45');for(const z of [1,3,5])box(6,0,z,1,5,1,'#b7793c');box(3,6,3,1,2,1,'#769252');break;
+ case 'dandelion':box(2,0,2,1,7,1,'#689c59');box(0,2,2,2,1,1,'#79b066');box(2,4,3,1,1,2,'#79b066');box(0,7,1,5,1,3,'#e9ce60');box(1,7,0,3,1,5,'#e9ce60');box(1,8,1,3,1,3,'#f9e18a');break;
+ case 'door':box(0,0,0,1,12,6,'#ba8b55');box(1,6,1,1,4,4,'#507a82');box(1,6,3,1,4,1,'#ba8b55');box(1,8,1,1,1,4,'#ba8b55');box(1,4,4,1,1,1,'#d8c878');break;
+ case 'ladder':box(0,0,0,1,12,1,'#c9a16a');box(5,0,0,1,12,1,'#c9a16a');for(const y of [1,4,7,10])box(1,y,0,4,1,1,'#a67e4b');break;
+ case 'boat':box(0,0,0,9,1,5,'#986b44');box(0,1,0,9,2,1,'#c09561');box(0,1,4,9,2,1,'#c09561');box(0,1,0,1,2,5,'#c09561');box(8,1,0,1,2,5,'#c09561');box(3,2,1,1,1,3,'#b18656');box(1,2,5,1,1,3,'#b18656');break;
+ case 'compass':box(0,0,0,7,1,7,'#71838d');box(1,1,1,5,1,5,'#d9dfd4');box(3,2,0,1,1,4,'#dc6564');box(3,2,4,1,1,3,'#5b8fa6');box(3,3,3,1,1,1,'#3b4b55');break;
+ case 'map':box(0,0,0,7,1,6,'#d9c594');box(1,1,1,3,1,2,'#81a774');box(4,1,1,2,1,4,'#72a9bb');box(2,1,4,2,1,1,'#b49169');pixel(3,2,3,'#ce6960');break;
+ case 'lever':box(0,0,0,4,1,4,'#89969e');for(let i=0;i<6;i++)box(2+i,1+i,1,1,1,1,'#b89b68');break;
+ case 'button':box(0,0,0,3,1,2,'#a7b4b7');box(0,1,0,3,1,1,'#cbd4cf');break;
+ case 'piston':block('#a9b4b8','#929c9f');box(2,6,2,2,3,2,'#bfa778');box(0,9,0,6,1,6,'#c9a46f');break;
+ case 'gold-ingot':box(0,0,0,7,2,4,'#c69b46');box(1,2,0,5,1,4,'#eccc69');box(1,3,1,5,1,2,'#f5e493');break;
+ case 'red':block('#e8787d','#c85665');break;
+ case 'green':block('#a1d780','#6faa67');break;
+ case 'blue':block('#86bde1','#508aad');break;
+ case 'one':case 'two':case 'three':{const count={one:1,two:2,three:3}[id];for(let i=0;i<count;i++){box(i*4,0,0,3,3,3,['#80bdac','#e7b96a','#75acd1'][i]);}break;}
  case 'grass-block':block('#77b64e','#8e6546');break;
  case 'dirt':block('#9c7652','#916747');break;
  case 'stone':block('#9ba7b1','#778590');break;
